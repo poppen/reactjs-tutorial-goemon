@@ -11,8 +11,7 @@ tasks:
 - match: './assets/*.html'
   commands:
   - :livereload /
-  - :livereload
-- mathc: '*.rb'
+- match: '*.rb'
   commands:
   - :restart
   - :livereload /
