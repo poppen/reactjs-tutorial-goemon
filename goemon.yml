@@ -11,8 +11,6 @@ tasks:
 - match: './assets/*.html'
   commands:
   - :livereload /
-- match: './assets/*.json'
-  commands:
   - :livereload
 - mathc: '*.rb'
   commands:
