@@ -11,6 +11,9 @@ tasks:
 - match: './assets/*.html'
   commands:
   - :livereload /
+- match: './assets/*.json'
+  commands:
+  - :livereload
 - match: '*.go'
   commands:
   - go build
